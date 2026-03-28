@@ -1,0 +1,110 @@
+body{
+font-family: Montserrat;
+background:black;
+margin:0;
+padding:0;
+}
+
+
+header{
+background:#254a1f;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* --------------------- Main ------------------*/
+main{
+max-width:800px;
+margin:auto;
+padding:20px;
+}
+
+
+	.form-area{
+	background:white;
+	padding:20px;
+	margin-bottom:20px;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	}
+
+
+	textarea{
+	height:80px;
+	}
+
+
+	button{
+		padding:10px;
+		cursor:pointer;
+		background:#2e7d32;
+		color:white;
+		border:none;
+		}
+	button:hover{
+	background:#1b5e20;
+	}
+
+
+.busca-area{
+margin-bottom:25px;
+}
+
+
+
+ul{
+list-style:none;
+padding:0;
+}
+
+
+li{
+background:white;
+padding:15px;
+margin-bottom:10px;
+border-left:5px solid gray;
+}
+
+/* --------------------- Corzinha dos Botoes ------------------*/
+	.prioridade-alta{
+	border-color:#1e8f01; /* verde escuro */
+	}
+	
+	.prioridade-media{
+	border-color:#31e305; /* verde normal */
+	}
+
+	.prioridade-baixa{
+	border-color:#54ff5a; /* verde claro */
+	}
+
+/* --------------------- Animação dos Botões ------------------*/
+	.tarefa-concluida{
+	text-decoration:line-through;
+	opacity:0.6;
+	}
+		.status-pendente{
+		color:red;
+		font-weight:bold;
+		}
+
+	.status-concluido{
+	color:green;
+	font-weight:bold;
+	}
+
+	.botoes{
+	margin-top:10px;
+	display:flex;
+	gap:10px;
+	}
+
+	@media(max-width:600px)
+	{
+	main{
+	padding:10px;
+	}
+
+}
