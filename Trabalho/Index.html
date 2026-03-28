@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<title>ToDo List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Lista de Tarefas</h1>
+</header>
+
+<main>
+
+<section class="form-area">
+
+<h2>Criar tarefa</h2>
+
+<input type="text" id="titulo" placeholder="Título da tarefa">
+
+<textarea id="descricao" placeholder="Descrição"></textarea>
+
+<select id="prioridade">
+<option value="Baixa">Baixa</option>
+<option value="Media">Média</option>
+<option value="Alta">Alta</option>
+</select>
+
+<button id="add">Adicionar tarefa</button>
+
+</section>
+
+<section class="busca-area">
+
+<input type="text" id="buscar" placeholder="Buscar tarefa pelo título">
+
+</section>
+
+<section>
+
+<ul id="lista"></ul>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
